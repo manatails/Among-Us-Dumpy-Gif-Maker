@@ -1,3 +1,6 @@
+### Patch
+This repository modifies Dumpy Gif Maker so that it creates pixel-perfect images with no smoothing effect.
+
 <p align="center">
    <!--<br>
    <a href="https://app.revolt.chat/bot/01FQ1AMSEKYQM3Z7ZNJZVQ3DNA" target="blank"><img src="https://shields.io/badge/invite_the-revolt_bot-FC4454?logo=rakuten&style=for-the-badge" height="35"/></a>-->

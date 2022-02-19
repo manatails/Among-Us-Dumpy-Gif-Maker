@@ -136,10 +136,10 @@ public class sus {
 
 		// Calculates size from height
 		double txd = (double) r.getWidth() / (double) r.getHeight();
-		int tx = (int) Math.round((double) ty * txd * 0.862);
+		int tx = (int) Math.round((double) ty * txd);
 
 		// Prepares source image
-		BufferedImage image = toBufferedImage(r.getScaledInstance(tx, ty, Image.SCALE_SMOOTH));
+		BufferedImage image = toBufferedImage(r.getScaledInstance(tx, ty, Image.SCALE_FAST));
 
 		// sets up loop vars
 		int bufferedImageArraySize = 6;
